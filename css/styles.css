@@ -1453,3 +1453,135 @@ section {
 .side-menu ul li a:hover {
   opacity: 1;
 }
+
+/* =========================
+   MOBILE FIRST AJUSTES
+========================= */
+
+/* Texto general */
+body {
+  font-size: 15px;
+}
+
+/* Secciones más compactas en móvil */
+section {
+  padding: 80px 20px;
+}
+
+/* TITULOS */
+.section-title {
+  font-size: 24px;
+}
+
+.section-text {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero-intro {
+    height: 75vh;
+    padding: 20px;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .brand-text h1 {
+    font-size: 15px;
+  }
+
+  .brand-text p {
+    font-size: 11px;
+  }
+
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .btn {
+    display: none; /* ocultamos botón en móvil */
+  }
+}
+
+@media (max-width: 768px) {
+  .container-split {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .text-content h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .proceso {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .paso {
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-img img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .img-columna {
+    flex-direction: column;
+  }
+
+  .img-columna img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto-container {
+    padding: 30px 20px;
+  }
+
+  .contacto-buttons {
+    flex-direction: column;
+  }
+
+  .btn-main,
+  .btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.hero-content h2 {
+  font-size: clamp(26px, 5vw, 60px);
+}
