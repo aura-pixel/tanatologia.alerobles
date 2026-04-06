@@ -16,6 +16,36 @@ body {
   pointer-events: none;
 }
 
+.left-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-toggle {
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.menu-toggle:hover {
+  background: #f1e3dd;
+}
+
+@media (max-width: 768px) {
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-text span {
+    display: none; /* opcional para limpiar */
+  }
+
+}
+
 /* HERO */
 .hero {
   position: relative;
