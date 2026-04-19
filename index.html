@@ -7,7 +7,7 @@
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,116 +15,164 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header">
+   <header class="header">
 
-    <div class="header-container">
+  <div class="header-container">
 
-      <!-- LOGO / NOMBRE -->
-      <div class="logo">
-  <img src="/logo1.png" alt="Ale Robles">
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="/logo1.png" alt="Ale Robles">
 
-  <div class="logo-text">
-    <h2>Ale Robles</h2>
-    <span>Psicóloga · Tanatóloga</span>
-  </div>
-</div>
-
-      <!-- NAV -->
-      <nav class="nav" id="nav">
-  <a href="#hero">Inicio</a>
-  <a href="#acompanamiento">Acompañamiento</a>
-  <a href="#sobre">Sobre mí</a>
-  <a href="#sesion">Sesión</a>
-  <a href="#contacto">Contacto</a>
-</nav>
-
-      <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20agendar%20una%20cita%20contigo%20🤍"
-   target="_blank"
-   class="header-btn">
-  Agendar cita
-</a>
-          <!-- BOTÓN MENÚ -->
-<div class="menu-toggle" id="menu-toggle">
-  ☰
-</div>
-
+      <div class="logo-text">
+        <h2>Ale Robles</h2>
+        <span>Psicóloga · Tanatóloga</span>
+      </div>
     </div>
 
-  </header>
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <a href="#hero">Inicio</a>
+      <a href="#acompanamiento">Acompañamiento</a>
+      <a href="#sobre">Sobre mí</a>
+      <a href="#sesion">Sesión</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
 
+    <!-- CTA -->
+    <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20agendar%20una%20sesión%20contigo%20🤍"
+       target="_blank"
+       class="header-btn">
+      Agendar sesión
+    </a>
+
+    <!-- MENU MOBILE -->
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+  </div>
+
+</header>
 
   <!-- HERO -->
-  <section id="hero" class="hero reveal">
+<section id="hero" class="hero">
+
+  <!-- VIDEO FONDO -->
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="/sakura.mp4" type="video/mp4">
+  </video>
 
   <div class="hero-overlay"></div>
-
-  <!-- DECORACIÓN -->
   <div class="hero-glow"></div>
 
   <div class="hero-content">
 
     <span class="hero-tag">
-      Acompañamiento emocional consciente
+      Psicóloga · Tanatóloga · Acompañamiento emocional
     </span>
 
     <h1>
-      Acompañar lo que sientes importa,  
-      y aquí tienes un espacio para ti
+      No tienes que atravesar tu proceso en soledad
     </h1>
 
     <p>
-      Un espacio seguro donde puedes sentir, expresar  
-      y reconstruirte a tu propio ritmo.
+      Te acompaño a transitar tus pérdidas, comprender lo que sientes  
+      y reconstruirte a tu propio ritmo, desde un espacio seguro y sin juicio 🤍
     </p>
 
     <div class="hero-buttons">
-      <a href="#acompanamiento" class="hero-btn main">
-        Comenzar mi proceso
+
+      <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20agendar%20una%20sesión%20contigo%20🤍"
+         target="_blank"
+         class="hero-btn main">
+        Agendar sesión
       </a>
 
       <a href="#sesion" class="hero-btn ghost">
-        Ver cómo funciona
+        Ver cómo es el proceso
       </a>
+
     </div>
 
   </div>
 
 </section>
 
-  <!-- ACOMPAÑAMIENTO -->
-<section id="acompanamiento" class="acompanamiento reveal">
+<!--CONFIANZA-->
+<section class="confianza">
+
+  <div class="container">
+
+    <p class="confianza-intro">
+      Acompañamiento profesional, humano y respetuoso 🤍
+    </p>
+
+    <div class="confianza-grid">
+
+      <div class="confianza-item">
+        <h3>Formación profesional</h3>
+        <p>
+          Licenciada en Psicología con especialidad en Tanatología Humanista,
+          y formación en Logoterapia, Análisis Existencial y Psicooncología.
+        </p>
+      </div>
+
+      <div class="confianza-item">
+        <h3>Experiencia desde lo humano</h3>
+        <p>
+          No solo desde lo profesional, sino desde la experiencia personal
+          de atravesar procesos de duelo y reconstrucción.
+        </p>
+      </div>
+
+      <div class="confianza-item">
+        <h3>Espacio seguro y sin juicio</h3>
+        <p>
+          Cada proceso se acompaña desde el respeto, la empatía
+          y el ritmo único de cada persona.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!--PROBLEMAS/ACOMPAÑAMIENTO-->
+<section id="acompanamiento" class="acompanamiento">
 
   <div class="container">
 
     <h2 class="section-title">
-      Un espacio para acompañarte en lo que estás viviendo
+      Tal vez estás atravesando algo como esto
     </h2>
 
     <p class="section-subtitle">
-      Si estás atravesando una pérdida o un cambio importante en tu vida,
-      no tienes que hacerlo solo.
+      A veces no sabemos cómo explicar lo que sentimos,  
+      pero sí sabemos que algo dentro de nosotros necesita ser acompañado 🤍
     </p>
 
-    <div class="cards reveal">
+    <div class="cards">
 
       <div class="card">
         <img src="/1.png" alt="">
-        <p>Fallecimiento de un ser querido</p>
+        <p>Pérdida de un ser querido</p>
       </div>
 
       <div class="card">
         <img src="/2.png" alt="">
-        <p>Enfermedad terminal o degenerativa</p>
+        <p>Enfermedad propia o de alguien cercano</p>
       </div>
 
       <div class="card">
         <img src="/3.png" alt="">
-        <p>Separación o divorcio</p>
+        <p>Separación, ruptura o divorcio</p>
       </div>
 
       <div class="card">
         <img src="/4.png" alt="">
-        <p>Pérdida laboral</p>
+        <p>Pérdida de trabajo o cambios inesperados</p>
       </div>
 
       <div class="card">
@@ -134,78 +182,94 @@
 
       <div class="card">
         <img src="/6.png" alt="">
-        <p>Gestión emocional en momentos difíciles</p>
+        <p>Dificultad para gestionar lo que sientes</p>
       </div>
 
     </div>
 
     <p class="section-footer">
-      Cada proceso es único, y aquí se respeta tu forma de vivirlo 🤍
+      No tienes que entender todo ahora.  
+      Solo necesitas un espacio donde puedas comenzar 🤍
     </p>
+
+    <!-- MINI CTA -->
+    <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20recibir%20acompañamiento%20🤍"
+   target="_blank"
+   class="mini-cta">
+   Hablar con ella →
+</a>
 
   </div>
 
 </section>
 
-<!-- SOBRE EL ACOMPAÑAMIENTO -->
-<section class="sobre-acompanamiento reveal">
+<!--COMO TE AYUDO -->
+<section class="proceso">
 
   <div class="container">
 
     <h2 class="section-title">
-      Un acompañamiento desde la empatía y el respeto
+      Un acompañamiento desde la empatía, el respeto y tu propio ritmo
     </h2>
 
     <p class="section-subtitle">
-      Este espacio está pensado para que puedas sentirte en confianza,
-      acompañado y libre de juicio en cada parte de tu proceso.
+      No se trata de apresurar tu proceso,  
+      sino de darte un espacio donde puedas sentir, comprender y reconstruirte 🤍
     </p>
 
-    <div class="bloques">
+    <div class="proceso-grid">
 
-      <div class="bloque">
+      <div class="proceso-item">
         <div class="icono">🤍</div>
         <h3>Un espacio seguro</h3>
         <p>
-          Aquí puedes expresarte libremente, sin presión y a tu propio ritmo.
+          Aquí puedes expresarte libremente, sin presión, sin juicios  
+          y siendo acompañado en cada momento.
         </p>
       </div>
 
-      <div class="bloque">
+      <div class="proceso-item">
         <div class="icono">🌿</div>
         <h3>Tu proceso es único</h3>
         <p>
-          No hay una forma correcta de vivir lo que sientes.
+          No hay una forma correcta de vivir lo que sientes.  
           Todo lo que experimentas es válido.
         </p>
       </div>
 
-      <div class="bloque">
+      <div class="proceso-item">
         <div class="icono">🧠</div>
-        <h3>Acompañamiento consciente</h3>
+        <h3>Acompañamiento profesional</h3>
         <p>
-          A través de escucha activa y herramientas terapéuticas,
-          damos sentido a lo que estás viviendo.
+          A través de herramientas terapéuticas, damos sentido  
+          a lo que estás viviendo, con claridad y contención.
         </p>
       </div>
 
-      <div class="bloque">
+      <div class="proceso-item">
         <div class="icono">✨</div>
         <h3>Sin presión</h3>
         <p>
-          No tienes que forzarte a nada.
-          Se trata de caminar tu proceso acompañado.
+          No tienes que forzarte a estar bien.  
+          Se trata de avanzar a tu propio ritmo.
         </p>
       </div>
 
+    </div>
+
+    <!-- CTA intermedio -->
+    <div class="proceso-cta">
+      <p>
+        Puedes comenzar este proceso cuando tú lo sientas 🤍
+      </p>
     </div>
 
   </div>
 
 </section>
 
-<!-- SESIÓN -->
-<section id="sesion" class="sesion reveal">
+<!--COMO ES UNA SESION-->
+<section id="sesion" class="sesion">
 
   <div class="container">
 
@@ -214,106 +278,117 @@
     </h2>
 
     <p class="section-subtitle">
-      Te explico cómo es tener una sesión conmigo, paso a paso y a tu ritmo 🤍
+      No tienes que saber exactamente qué decir o cómo empezar.  
+      Este es un espacio que se adapta a ti 🤍
     </p>
 
     <div class="timeline">
 
-      <!-- PASO 1 -->
       <div class="paso">
         <div class="numero">1</div>
-        <h3>Un primer momento para ti</h3>
+        <h3>Un primer espacio para ti</h3>
         <p>
-          Comenzamos con un espacio donde puedes compartir lo que estás viviendo,
-          sin presión y con total libertad.
+          Comenzamos con un momento donde puedes compartir lo que estás viviendo,  
+          sin presión y a tu propio ritmo.
         </p>
       </div>
 
-      <!-- PASO 2 -->
       <div class="paso">
         <div class="numero">2</div>
         <h3>Escuchar y comprender</h3>
         <p>
-          Se da lugar a tus emociones, validando lo que sientes
+          Se da lugar a lo que sientes, validando tus emociones  
           desde la empatía y el respeto.
         </p>
       </div>
 
-      <!-- PASO 3 -->
       <div class="paso">
         <div class="numero">3</div>
-        <h3>Explorar y expresar</h3>
+        <h3>Explorar lo que estás viviendo</h3>
         <p>
-          Utilizamos herramientas que te ayuden a entender,
-          expresar y procesar lo que estás viviendo.
+          A través de preguntas y herramientas terapéuticas,  
+          comenzamos a dar claridad a tu proceso.
         </p>
       </div>
 
-      <!-- PASO 4 -->
       <div class="paso">
         <div class="numero">4</div>
-        <h3>Integrar tu proceso</h3>
+        <h3>Integrar y avanzar</h3>
         <p>
-          Poco a poco, damos sentido a lo que estás viviendo
-          y avanzamos a tu propio ritmo.
+          Poco a poco, encuentras tu propia forma de comprender,  
+          sostener y transformar lo que estás viviendo.
         </p>
       </div>
 
+    </div>
+
+    <!-- CTA -->
+    <div class="sesion-cta">
+      <p>
+        Puedes empezar este proceso cuando te sientas listo 🤍
+      </p>
+
+      <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20agendar%20una%20sesión%20🤍"
+         target="_blank"
+         class="btn-main">
+        Agendar sesión
+      </a>
     </div>
 
   </div>
 
 </section>
 
-<!-- SOBRE MÍ -->
-<section id="sobre" class="sobre-mi reveal">
+<!--SOBRE ELLA-->
+<section id="sobre" class="sobre">
 
-  <div class="container sobre-mi-container">
+  <div class="container sobre-container">
 
     <!-- IMAGEN -->
     <div class="sobre-img">
       <img src="/ella.jpeg" alt="Ale Robles">
     </div>
 
-    <!-- CONTENIDO -->
+    <!-- TEXTO -->
     <div class="sobre-content">
 
-      <h2 class="section-title">Sobre mí</h2>
+      <h2 class="section-title">
+        Sobre mí
+      </h2>
 
       <p class="intro">
-        Antes de ser profesionista en la salud mental, soy una mujer con una historia
-        de vida que me ha enseñado a sentir profundamente, a perder, a reconstruirme
-        y a encontrar sentido incluso en los momentos más difíciles.
+        Antes de ser profesionista en la salud mental, soy una mujer que ha aprendido a sentir profundamente,
+        a perder, a reconstruirse y a encontrar sentido incluso en los momentos más difíciles.
       </p>
 
-      <!-- TEXTO OCULTO -->
-      <div class="extra-text" id="extraText">
+      <div class="historia">
 
         <p>
           Soy amante de los pequeños detalles que abrazan el alma: las series coreanas,
-          la magia de la Navidad y el arte de hacer postres que llenan el corazón.
+          la magia de la Navidad y el arte de hacer postres que llenan el corazón tanto como el hogar.
         </p>
 
         <p>
-          He atravesado pérdidas dolorosas que marcaron mi camino. Y fue justamente
-          al transitar mi propio duelo que nació en mí el deseo de acompañar a otros.
+          He atravesado pérdidas que marcaron mi camino. Y fue justamente al vivir mi propio proceso de duelo,
+          con todo lo que implica, que nació en mí el deseo de acompañar a otros.
         </p>
 
         <p>
-          Soy Licenciada en Psicología, especialista en Tanatología Humanista,
-          con formación en Logoterapia, Psicooncología y más.
+          Porque sé, desde la experiencia y desde lo humano, que el dolor puede transformarse
+          cuando es sostenido con amor, comprensión y presencia.
         </p>
 
         <p>
-          Hoy, mi propósito es acompañarte a transitar tus pérdidas
-          y reconstruirte a tu propio ritmo.
+          Desde lo profesional, soy Licenciada en Psicología, especialista en Tanatología Humanista,
+          con formación en Logoterapia, Análisis Existencial, Psicooncología y Lenguaje No Verbal.
+        </p>
+
+        <p>
+          Hoy, mi propósito es acompañarte a transitar tus pérdidas,
+          honrar lo que sientes y reconstruirte a tu propio ritmo 🤍
         </p>
 
       </div>
-
-      <button class="btn-leer" id="toggleBtn">
-        Leer más
-      </button>
 
     </div>
 
@@ -321,21 +396,21 @@
 
 </section>
 
-<!-- CONSULTORIO -->
-<section class="consultorio reveal">
+<!--ESPACIO/MODALIDAD-->
+<section class="consultorio">
 
   <div class="container">
 
     <h2 class="section-title">
-      Este es el espacio que he preparado para ti
+      Un espacio pensado para acompañarte
     </h2>
 
     <p class="section-subtitle">
-      Un lugar seguro, tranquilo y pensado para que puedas sentirte en confianza.
+      Un lugar seguro, tranquilo y creado para que puedas sentirte en confianza 🤍
     </p>
 
     <p class="consultorio-ubicacion">
-      Consultorio en Toluca 🤍
+      Consultorio en Toluca, Estado de México
     </p>
 
     <div class="galeria">
@@ -357,50 +432,70 @@
 
 </section>
 
-<!-- FRASES -->
-<section class="frases reveal">
+<section class="modalidad">
 
   <div class="container">
 
     <h2 class="section-title">
-      Palabras que acompañan
+      Puedes elegir la forma que se adapte a ti
     </h2>
 
     <p class="section-subtitle">
-      A veces, una frase puede abrazar lo que sientes 🤍
+      El acompañamiento se ajusta a lo que necesitas y a tu ritmo 🤍
     </p>
 
-    <div class="frases-grid">
+    <div class="modalidad-grid">
 
-      <div class="frase-item">
-        <img src="frase1.jpeg" alt="">
-      </div>
+      <!-- ONLINE -->
+<div class="modalidad-card">
+  
+  <lottie-player
+    src="/Meeting.json"
+    background="transparent"
+    speed="1"
+    loop
+    autoplay>
+  </lottie-player>
 
-      <div class="frase-item">
-        <img src="/frase2.jpeg" alt="">
-      </div>
+  <h3>Sesiones en línea</h3>
 
-      <div class="frase-item">
-        <img src="/frase3.jpeg" alt="">
-      </div>
+  <p>
+    Desde la comodidad de tu espacio, en un ambiente seguro y confidencial,
+    estés donde estés.
+  </p>
+</div>
 
-      <div class="frase-item">
-        <img src="/frase4.jpeg" alt="">
-      </div>
+<!-- PRESENCIAL -->
+<div class="modalidad-card">
 
-      <div class="frase-item">
-        <img src="/frase 5.jpg" alt="">
-      </div>
+  <lottie-player
+    src="/Psychotherapy.json"
+    background="transparent"
+    speed="1"
+    loop
+    autoplay>
+  </lottie-player>
 
-      <div class="frase-item">
-        <img src="/frase 6.jpg" alt="">
-      </div>
+  <h3>Sesiones presenciales</h3>
+
+  <p>
+    En consultorio en Toluca, dentro de un espacio tranquilo
+    y adecuado para tu proceso.
+  </p>
+</div>
 
     </div>
 
-    <div class="frases-cta">
-      <a href="https://www.instagram.com/tanatologia.alerobles/" target="_blank">
-        Ver más en Instagram
+    <!-- CTA -->
+    <div class="modalidad-cta">
+      <p>
+        Puedes comenzar cuando te sientas listo 🤍
+      </p>
+
+      <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20agendar%20una%20sesión%20🤍"
+         target="_blank"
+         class="btn-main">
+        Agendar sesión
       </a>
     </div>
 
@@ -408,68 +503,35 @@
 
 </section>
 
-<!-- MODALIDAD -->
-<section class="modalidad reveal">
+<!--FRASES + CONTACTO-->
+<section id="contacto" class="contacto">
 
-  <div class="container">
-
-    <h2 class="section-title">
-      Modalidad de atención
-    </h2>
-
-    <p class="section-subtitle">
-      Puedes elegir la forma en la que te sientas más cómodo para iniciar tu proceso 🤍
-    </p>
-
-    <div class="modalidad-grid">
-
-      <!-- ONLINE -->
-      <div class="modalidad-card">
-        <img src="/online.png" alt="">
-        <h3>Sesiones en línea</h3>
-        <p>
-          Puedes tomar tu proceso desde la comodidad de tu espacio,
-          en un ambiente seguro y confidencial.
-        </p>
-      </div>
-
-      <!-- PRESENCIAL -->
-      <div class="modalidad-card">
-        <img src="/presencial.png" alt="">
-        <h3>Sesiones presenciales</h3>
-        <p>
-          Las sesiones se llevan a cabo en consultorio en Toluca,
-          dentro de un espacio tranquilo y adecuado para tu proceso.
-        </p>
-      </div>
-
-    </div>
-
-    <p class="modalidad-footer">
-      El acompañamiento se adapta a lo que necesitas, respetando siempre tu ritmo 🤍
-    </p>
-
-  </div>
-
-</section>
-
-<!-- CONTACTO -->
-<section id="contacto" class="contacto reveal">
+  <!-- VIDEO FONDO -->
+  <video autoplay muted loop playsinline class="contacto-video">
+    <source src="/sakura.mp4" type="video/mp4">
+  </video>
 
   <div class="contacto-container">
 
     <h2>
-      Estoy aquí para acompañarte
+      A veces, una palabra puede abrazar lo que sientes
     </h2>
 
-    <p>
-      Si sientes que es momento de hablar o iniciar tu proceso,
-      puedes escribirme con confianza 🤍
+    <p class="contacto-sub">
+      Y a veces, también es momento de hablarlo 🤍
     </p>
 
+    <!-- FRASES -->
+    <div class="frases-mini">
+
+      <p>“Tu proceso es válido, incluso cuando no lo entiendes.”</p>
+
+    </div>
+
+    <!-- CTA -->
     <div class="contacto-buttons">
 
-      <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20recibir%20acompañamiento%20y%20más%20información%20por%20favor%20🤍"
+      <a href="https://wa.me/527224249970?text=Hola,%20me%20gustaría%20iniciar%20acompañamiento%20🤍"
          target="_blank"
          class="btn-main">
         Escribir por WhatsApp
@@ -477,7 +539,7 @@
 
       <a href="https://www.instagram.com/tanatologia.alerobles/"
          target="_blank"
-         class="btn-outline">
+         class="btn-secondary">
         Ver Instagram
       </a>
 
@@ -491,8 +553,8 @@
 
 </section>
 
-<!-- FOOTER -->
-<footer class="footer reveal">
+<!--FOOTER-->
+<footer class="footer">
 
   <div class="footer-container">
 
@@ -506,10 +568,10 @@
     <!-- LINKS -->
     <div class="footer-links">
       <a href="#hero">Inicio</a>
-  <a href="#acompanamiento">Acompañamiento</a>
-  <a href="#sobre">Sobre mí</a>
-  <a href="#sesion">Sesión</a>
-  <a href="#contacto">Contacto</a>
+      <a href="#acompanamiento">Acompañamiento</a>
+      <a href="#sobre">Sobre mí</a>
+      <a href="#sesion">Sesión</a>
+      <a href="#contacto">Contacto</a>
     </div>
 
   </div>
@@ -521,17 +583,20 @@
       © 2026 Ale Robles · Todos los derechos reservados
     </p>
 
+    <!-- AURA DEV -->
     <div class="aura-badge">
-  <span>Desarrollado por</span>
-  <div class="aura-pill">
-    <img src="/aura.png" alt="Aura Dev Studio">
-    <span>Aura Dev Studio</span>
-  </div>
-</div>
+      <span>Desarrollado por</span>
+
+      <div class="aura-pill">
+        <img src="/logo2-p.png" alt="Aura Dev Studio">
+        <span>Aura Dev Agency</span>
+      </div>
+    </div>
 
   </div>
 
 </footer>
+  
 
 <script src="main.js"></script>
 </body>
