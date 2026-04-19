@@ -1373,4 +1373,34 @@ a {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  .hero video {
+    display: none;
+  }
 
+  .hero {
+    background: url("/fondo2.png") center/cover no-repeat;
+  }
+
+  .contacto {
+  background: url("/fondo1.png") center/cover no-repeat;
+}
+
+  .contacto {
+  position: relative;
+  background: url("/fallback.jpg") center/cover no-repeat;
+}
+
+.contacto::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.75); /* ajusta */
+}
+
+.contacto-container {
+  position: relative;
+  z-index: 2;
+}
+  
+}
